@@ -135,9 +135,6 @@ def askNetwork():
     if goodData == True:
       writeEthFile('/tmp/ifcfg-eth0',ipAddr,netMask,uGW,[dnses[0],dnses[1]])
 
-  print "finish:",goodData,
-  print dnses
-
 askUser();
 askNetwork(); 
 
